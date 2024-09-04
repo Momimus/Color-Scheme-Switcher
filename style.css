@@ -1,0 +1,53 @@
+/* Ensure that you don't have conflicting background-color settings in the body or elements */
+body {
+    margin: 0;
+    padding: 0;
+    font-family: Arial, Helvetica, sans-serif;
+    background-color: rgb(246, 246, 246);
+}
+
+.all-color-schemer {
+    margin-top: 25vh;
+}
+
+h1 {
+    text-align: center;
+}
+
+.button {
+    width: 35%;
+    display: flex;
+    justify-content: space-between;
+    margin: auto;
+    padding: 20px;
+}
+
+.btn {
+    height: 100px;
+    width: 100px;
+    cursor: pointer;
+}
+
+#gray{
+    background: gray;
+    border: 1px solid black;
+}
+#white{
+    border: 1px solid black;
+    background: white;
+}
+#blue{
+    border: 1px solid black;
+    background: blue;
+}
+#yellow{
+    border: 1px solid black;
+    background: yellow;
+}
+#purple{
+    border: 1px solid black;
+    background: purple;
+}
+
+
+
